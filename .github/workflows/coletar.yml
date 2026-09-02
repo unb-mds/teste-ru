@@ -17,6 +17,8 @@ concurrency:
 jobs:
   coletar:
     runs-on: ubuntu-latest
+    outputs:
+      mudou: ${{ steps.commit.outputs.mudou }}
     steps:
       - uses: actions/checkout@v4
 
@@ -34,11 +36,14 @@ jobs:
         run: python parser/coletar.py
 
       - name: Commitar se mudou
+        id: commit
         run: |
           if git diff --quiet -- data/cardapio.json; then
+            echo "mudou=false" >> "$GITHUB_OUTPUT"
             echo "cardápio inalterado; nada a commitar"
             exit 0
           fi
+          echo "mudou=true" >> "$GITHUB_OUTPUT"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/cardapio.json
@@ -81,3 +86,14 @@ jobs:
                 labels: ["coleta"],
               });
             }
+
+  # Republica o site com o cardápio novo. Precisa ser uma chamada no mesmo run:
+  # o push acima foi feito com o GITHUB_TOKEN e não dispara o workflow de Pages.
+  publicar:
+    needs: coletar
+    if: needs.coletar.outputs.mudou == 'true'
+    uses: ./.github/workflows/pages.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

@@ -66,6 +66,7 @@ Workflow do GitHub Actions, agendado **diariamente de manhã cedo** (não semana
    - células mescladas **horizontalmente** (a bebida do café da manhã vale a semana toda) valem para todos os dias que abrangem; células de categoria mescladas **verticalmente** fazem a linha seguinte pertencer à categoria de cima.
 4. **Validar** — o resultado só é aceito se: os 5 campi estiverem presentes; cada um cobrir de 5 a 7 dias; cada campus servir ao menos café da manhã e almoço em algum dia; nenhuma refeição desconhecida aparecer; as categorias esperadas daquela refeição existirem; e nenhum dia ficar sem item algum.
 5. **Gravar** — se validou, sobrescrever `data/cardapio.json` e commitar. Se não validou, **não escrever nada**, falhar o job e abrir uma issue com o diagnóstico. O site permanece com o último dado bom, que a interface já sinaliza como desatualizado (§ 6.3).
+6. **Republicar** — só quando o arquivo mudou, a coleta chama o workflow de publicação dentro do mesmo run. Não pode ser um workflow separado reagindo ao push: commits feitos com o `GITHUB_TOKEN` não disparam workflows, e o site ficaria congelado na primeira versão.
 
 Categoria desconhecida não invalida a coleta: é preservada no dado com seu nome original e exibida sem **Trilha dietética**. O que invalida é ausência do que deveria existir, não presença do que não se esperava.
 
@@ -199,7 +200,7 @@ Estado na URL, depois do `#`: `#/<campus>/<AAAA-MM-DD>/<refeicao>`.
 | RF04 | Café da manhã, almoço e jantar são exibidos separadamente, um por vez; a troca não altera o dia nem o campus selecionados; refeição não servida aparece desabilitada em vez de vazia. |
 | RF05 | Cada refeição exibe suas categorias na ordem do PDF, com todos os itens; as três trilhas do prato principal são distinguíveis; opções alternativas aparecem como alternativas. |
 | RF06 | A troca de campus está acessível de qualquer ponto da tela de cardápio, preserva o dia e a refeição selecionados, e atualiza a preferência salva. |
-| RNF01 | O site é servido inteiramente por GitHub Pages, sem nenhuma requisição a servidor próprio; nenhum passo de build é necessário para publicar. |
+| RNF01 | O site é servido inteiramente por GitHub Pages, sem nenhuma requisição a servidor próprio; a publicação envia os arquivos como estão, sem passo de build. |
 
 Além dos RFs: nenhuma tela apresenta ausência de alergênicos onde a extração falhou, e nenhuma tela apresenta cardápio de outra semana sem dizer que é de outra semana.
 

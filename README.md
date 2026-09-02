@@ -48,9 +48,16 @@ Roda a interface num DOM headless contra o `data/cardapio.json` real, com relóg
 
 ## Publicação
 
-GitHub Pages servindo a branch principal a partir da raiz. Não há build — os arquivos vão como estão.
+Dois workflows, em `.github/workflows/`:
 
-O workflow `coletar.yml` roda todo dia às 06:00 (Brasília). Se a extração falhar na validação, **nada é gravado**: o job falha, abre uma issue e o site continua com o último dado bom, que a interface sinaliza como desatualizado.
+- **`pages.yml`** publica o site no GitHub Pages. Não há passo de build: a raiz vai como está. Roda a cada push na `main`, sob demanda, ou chamado pela coleta.
+- **`coletar.yml`** roda todo dia às 06:00 (Brasília), atualiza `data/cardapio.json` e, **só se o cardápio mudou**, chama o `pages.yml` para republicar.
+
+O encadeamento existe por um motivo específico: um commit feito com o `GITHUB_TOKEN` não dispara outros workflows. Se o deploy dependesse do evento de push, o site nunca refletiria a coleta diária.
+
+Se a extração falhar na validação, **nada é gravado**: o job falha, abre uma issue, não republica, e o site continua com o último dado bom — que a interface sinaliza como desatualizado.
+
+Para funcionar, o repositório precisa de *Settings → Pages → Source: **GitHub Actions*** e de *Settings → Actions → General → Workflow permissions: **Read and write***.
 
 ## Alergênicos
 
