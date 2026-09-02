@@ -69,7 +69,11 @@
   /* ---------- rota ---------- */
 
   function lerRota() {
-    var partes = window.location.hash.replace(/^#\/?/, "").split("/");
+    var hash = window.location.hash;
+    // So "#/..." e rota. Ancoras comuns (o link de pular para o conteudo)
+    // nao podem ser lidas como um campus inexistente.
+    if (hash.indexOf("#/") !== 0) return { campus: null, data: null, refeicao: null };
+    var partes = hash.slice(2).split("/");
     return {
       campus: partes[0] || null,
       data: partes[1] || null,
@@ -402,6 +406,17 @@
     ].forEach(function (par) {
       el[par[0]] = document.getElementById(par[1]);
     });
+
+    // Pular para o conteudo sem mexer no hash, que aqui e a rota.
+    var pular = document.querySelector(".pular");
+    if (pular) {
+      pular.addEventListener("click", function (evento) {
+        evento.preventDefault();
+        var alvo = document.getElementById("conteudo");
+        alvo.setAttribute("tabindex", "-1");
+        alvo.focus(); // focar ja leva a rolagem ate o elemento
+      });
+    }
 
     document.getElementById("trocar-campus").addEventListener("click", function () {
       window.location.hash = "#/escolher";

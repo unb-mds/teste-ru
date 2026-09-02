@@ -157,6 +157,19 @@ console.log("\n# alergenico indeterminado nunca vira 'sem alergenico'");
   ok(ind[0].querySelector("a").href.endsWith(".pdf"), "oferece o PDF oficial como saida");
 }
 
+console.log("\n# ancora de acessibilidade nao e confundida com rota");
+{
+  const { w, doc } = await montar({ storage: { "ru-unb:campus": "darcy-ribeiro" } });
+  doc.querySelector(".pular").dispatchEvent(new w.Event("click", { cancelable: true, bubbles: true }));
+  await new Promise((r) => setTimeout(r, 20));
+  ok(visivel(doc, "cardapio"), "pular para o conteudo nao volta para a selecao de campus");
+  ok(w.location.hash.startsWith("#/darcy-ribeiro/"), `a rota se mantem (${w.location.hash})`);
+
+  const { doc: doc2 } = await montar({ hash: "#conteudo",
+    storage: { "ru-unb:campus": "darcy-ribeiro" } });
+  ok(visivel(doc2, "cardapio"), "chegar com #conteudo na URL ainda mostra o cardapio");
+}
+
 console.log("\n# dados indisponiveis");
 {
   const dom = new JSDOM(html, { url: "https://exemplo.github.io/", runScripts: "outside-only" });
