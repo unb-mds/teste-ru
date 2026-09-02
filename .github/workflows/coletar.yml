@@ -1,0 +1,83 @@
+name: Coletar cardápio
+
+# Diariamente, e nao semanalmente: a UnB troca o PDF no meio da semana.
+on:
+  schedule:
+    - cron: "0 9 * * *" # 06:00 em Brasília
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: coleta
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: parser/requirements.txt
+
+      - run: pip install -r parser/requirements.txt
+
+      # Nada e gravado se a validacao falhar: o site continua com o ultimo
+      # dado bom, que a interface ja sinaliza como desatualizado.
+      - name: Coletar e validar
+        run: python parser/coletar.py
+
+      - name: Commitar se mudou
+        run: |
+          if git diff --quiet -- data/cardapio.json; then
+            echo "cardápio inalterado; nada a commitar"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/cardapio.json
+          git commit -m "Atualiza cardápio da semana"
+          git push
+
+      - name: Abrir issue se a coleta falhou
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const titulo = "Coleta do cardápio falhou";
+            const abertas = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              labels: "coleta",
+            });
+            const corpo = [
+              "A coleta automática falhou e o arquivo `data/cardapio.json` **não** foi alterado.",
+              "O site segue exibindo o último dado bom, sinalizado como desatualizado.",
+              "",
+              `Execução: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+              "",
+              "Causa provável: a UnB mudou o layout do PDF ou a estrutura da página.",
+            ].join("\n");
+            if (abertas.data.length) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: abertas.data[0].number,
+                body: corpo,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: titulo,
+                body: corpo,
+                labels: ["coleta"],
+              });
+            }

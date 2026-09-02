@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cardápio do RU · UnB</title>
+<meta name="description" content="Cardápio dos Restaurantes Universitários da Universidade de Brasília.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o cardápio</a>
+
+<header class="topo" id="topo" hidden>
+  <div class="topo-campus">
+    <span class="topo-rotulo">Restaurante Universitário</span>
+    <strong id="campus-atual"></strong>
+  </div>
+  <button type="button" id="trocar-campus" class="botao-trocar">Trocar</button>
+</header>
+
+<main id="conteudo">
+  <section id="selecao" class="selecao" hidden>
+    <h1>Qual RU você usa?</h1>
+    <p class="selecao-ajuda">A escolha fica salva neste navegador. Dá para trocar quando quiser.</p>
+    <ul id="lista-campi" class="lista-campi"></ul>
+  </section>
+
+  <section id="cardapio" hidden>
+    <div id="aviso-semana" class="aviso" hidden></div>
+
+    <nav class="dias" aria-label="Dias da semana">
+      <ul id="lista-dias"></ul>
+    </nav>
+
+    <nav class="refeicoes" aria-label="Refeições">
+      <ul id="lista-refeicoes"></ul>
+    </nav>
+
+    <div id="composicao" aria-live="polite"></div>
+
+    <footer class="rodape">
+      <p id="observacao" class="observacao"></p>
+      <p class="fonte">
+        Fonte: <a id="link-pdf" href="https://ru.unb.br/cardapio-refeitorio/" rel="noopener">cardápio oficial da semana</a>.
+        Cardápio sujeito a alteração.
+      </p>
+      <p id="coleta" class="coleta"></p>
+    </footer>
+  </section>
+
+  <section id="erro" class="vazio" hidden></section>
+</main>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

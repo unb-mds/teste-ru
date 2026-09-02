@@ -1,0 +1,11 @@
+{
+  "name": "cardapio-ru-unb",
+  "private": true,
+  "description": "Cardápio dos Restaurantes Universitários da UnB",
+  "scripts": {
+    "test": "node testes/ui.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
