@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-04T13:04:41Z",
+  "gerado_em": "2026-09-05T12:16:57Z",
   "fonte": "https://ru.unb.br/cardapio-refeitorio/",
   "semana": {
     "inicio": "2026-08-31",
@@ -676,7 +676,7 @@
                   "trilha": "padrao",
                   "itens": [
                     {
-                      "nome": "Frango assado",
+                      "nome": "Frango assa do",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1063,7 +1063,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Mamão",
+                      "nome": "Melancia",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1094,7 +1094,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Abobrinha ralada",
+                      "nome": "Rabanete",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1522,7 +1522,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Melancia",
+                      "nome": "Mamão",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1553,7 +1553,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Cenoura ralada",
+                      "nome": "Antepasto de abobrinha",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2161,7 +2161,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Picles de rabanete",
+                      "nome": "Beterraba ralada",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2475,6 +2475,12 @@
                   "itens": [
                     {
                       "nome": "Ervas finas",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Limão",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
