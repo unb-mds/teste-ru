@@ -1,19 +1,19 @@
 {
-  "gerado_em": "2026-10-25T13:30:12Z",
+  "gerado_em": "2026-10-26T15:42:51Z",
   "fonte": "https://ru.unb.br/cardapio-refeitorio/",
   "semana": {
-    "inicio": "2026-10-19",
+    "inicio": "2026-10-26",
     "fim": "2026-11-01",
-    "rotulo": "Semana 01"
+    "rotulo": "Semana 02"
   },
   "campi": [
     {
       "id": "darcy-ribeiro",
       "nome": "Darcy Ribeiro",
-      "pdf": "https://ru.unb.br/wp-content/uploads/2026/10/Darcy-Ribeiro-Semana-01-19-10-a-25-10-7.pdf",
+      "pdf": "https://ru.unb.br/wp-content/uploads/2026/10/Darcy-Ribeiro-Semana-02-26-10-a-01-11-2.pdf",
       "dias": [
         {
-          "data": "2026-10-19",
+          "data": "2026-10-26",
           "refeicoes": [
             {
               "tipo": "cafe-da-manha",
@@ -25,14 +25,26 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Leite Integral OU Bebida de Soja",
+                      "nome": "Leite integral",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "indeterminado"
                     },
                     {
-                      "nome": "Café OU Chá",
+                      "nome": "Bebida de soja",
+                      "alternativa": true,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Café",
                       "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Chá",
+                      "alternativa": true,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
                     }
@@ -79,7 +91,7 @@
                       "alergenicos_status": "indeterminado"
                     },
                     {
-                      "nome": "Creme Vegetal",
+                      "nome": "Creme vegetal",
                       "alternativa": true,
                       "alergenicos": [],
                       "alergenicos_status": "indeterminado"
@@ -91,9 +103,11 @@
                   "trilha": "padrao",
                   "itens": [
                     {
-                      "nome": "Ovos mexidos",
+                      "nome": "Salsicha ao molho",
                       "alternativa": false,
-                      "alergenicos": [],
+                      "alergenicos": [
+                        "suino"
+                      ],
                       "alergenicos_status": "identificados"
                     }
                   ]
@@ -103,7 +117,7 @@
                   "trilha": "ovolactovegetariano",
                   "itens": [
                     {
-                      "nome": "Pasta de ricota",
+                      "nome": "Queijo minas",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "indeterminado"
@@ -115,9 +129,11 @@
                   "trilha": "vegetariano-estrito",
                   "itens": [
                     {
-                      "nome": "Geleia de maçã com chia e canela",
+                      "nome": "Bolonhesa de soja",
                       "alternativa": false,
-                      "alergenicos": [],
+                      "alergenicos": [
+                        "soja"
+                      ],
                       "alergenicos_status": "identificados"
                     }
                   ]
@@ -127,7 +143,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Abacaxi",
+                      "nome": "Banana",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -146,7 +162,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Repolho roxo",
+                      "nome": "Alface crespa",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -158,7 +174,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Abobrinha ralada",
+                      "nome": "Tomate",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -170,15 +186,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Chipotle",
-                      "alternativa": false,
-                      "alergenicos": [
-                        "pimenta"
-                      ],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Limão",
+                      "nome": "Salsa",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -190,7 +198,7 @@
                   "trilha": "padrao",
                   "itens": [
                     {
-                      "nome": "Frango com creme de milho",
+                      "nome": "Silveirinha de carne",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -202,7 +210,7 @@
                   "trilha": "ovolactovegetariano",
                   "itens": [
                     {
-                      "nome": "Quibe de legumes com quinoa gratinado",
+                      "nome": "Bolinho de lentilha gratinado",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "indeterminado"
@@ -214,9 +222,11 @@
                   "trilha": "vegetariano-estrito",
                   "itens": [
                     {
-                      "nome": "Tomate recheado com quinoa",
+                      "nome": "Silveirinha de soja",
                       "alternativa": false,
-                      "alergenicos": [],
+                      "alergenicos": [
+                        "soja"
+                      ],
                       "alergenicos_status": "identificados"
                     }
                   ]
@@ -226,9 +236,11 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Cenoura cozida",
+                      "nome": "Macarrão temperado",
                       "alternativa": false,
-                      "alergenicos": [],
+                      "alergenicos": [
+                        "trigo"
+                      ],
                       "alergenicos_status": "identificados"
                     }
                   ]
@@ -244,7 +256,7 @@
                       "alergenicos_status": "identificados"
                     },
                     {
-                      "nome": "Feijão preto",
+                      "nome": "Feijão carioca",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -268,7 +280,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Jabuticaba",
+                      "nome": "Guaraná",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -287,7 +299,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Alface crespa",
+                      "nome": "Acelga com alface roxa",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -299,7 +311,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Cenoura ralada com passas",
+                      "nome": "Chuchu cozido com pimentões coloridos",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -311,12 +323,16 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Gengibre",
+                      "nome": "Mostarda e mel",
                       "alternativa": false,
-                      "alergenicos": [
-                        "soja"
-                      ],
-                      "alergenicos_status": "identificados"
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Limão",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
                     }
                   ]
                 },
@@ -325,10 +341,10 @@
                   "trilha": "padrao",
                   "itens": [
                     {
-                      "nome": "Bife de panela",
+                      "nome": "Frango à pizzaiolo",
                       "alternativa": false,
                       "alergenicos": [],
-                      "alergenicos_status": "identificados"
+                      "alergenicos_status": "indeterminado"
                     }
                   ]
                 },
@@ -337,7 +353,7 @@
                   "trilha": "ovolactovegetariano",
                   "itens": [
                     {
-                      "nome": "Strogonoff de berinjela com cogumelos",
+                      "nome": "Fricassê de palmito com legumes",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -349,11 +365,9 @@
                   "trilha": "vegetariano-estrito",
                   "itens": [
                     {
-                      "nome": "Nhoque à bolonhesa de soja",
+                      "nome": "Berinjela recheada com homus de grão de bico",
                       "alternativa": false,
-                      "alergenicos": [
-                        "soja"
-                      ],
+                      "alergenicos": [],
                       "alergenicos_status": "identificados"
                     }
                   ]
@@ -363,7 +377,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Creme de cebola com alho poró",
+                      "nome": "Caldo verde",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -395,7 +409,7 @@
                       "alergenicos_status": "identificados"
                     },
                     {
-                      "nome": "Feijão preto",
+                      "nome": "Feijão carioca",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -407,14 +421,8 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Mix de doces",
+                      "nome": "Laranja",
                       "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Fruta",
-                      "alternativa": true,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
                     }
@@ -425,7 +433,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Jabuticaba",
+                      "nome": "Guaraná",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -437,7 +445,7 @@
           ]
         },
         {
-          "data": "2026-10-20",
+          "data": "2026-10-27",
           "refeicoes": [
             {
               "tipo": "cafe-da-manha",
@@ -449,14 +457,26 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Leite Integral OU Bebida de Soja",
+                      "nome": "Leite integral",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "indeterminado"
                     },
                     {
-                      "nome": "Café OU Chá",
+                      "nome": "Bebida de soja",
+                      "alternativa": true,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Café",
                       "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Chá",
+                      "alternativa": true,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
                     }
@@ -475,7 +495,7 @@
                       "alergenicos_status": "identificados"
                     },
                     {
-                      "nome": "Pão de forma fatiado",
+                      "nome": "Pão careca ou",
                       "alternativa": true,
                       "alergenicos": [
                         "trigo"
@@ -489,7 +509,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Biscoito amanteigado Cappuccino cremoso",
+                      "nome": "Canjica",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "indeterminado"
@@ -507,7 +527,7 @@
                       "alergenicos_status": "indeterminado"
                     },
                     {
-                      "nome": "Creme Vegetal",
+                      "nome": "Creme vegetal",
                       "alternativa": true,
                       "alergenicos": [],
                       "alergenicos_status": "indeterminado"
@@ -519,7 +539,7 @@
                   "trilha": "padrao",
                   "itens": [
                     {
-                      "nome": "Ovos mexidos com tomate e manjericão",
+                      "nome": "Ovos mexidos",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -543,440 +563,10 @@
                   "trilha": "vegetariano-estrito",
                   "itens": [
                     {
-                      "nome": "Pasta de tomate seco",
+                      "nome": "Pasta de lentilha com hortelã",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Fruta",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Mamão",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "tipo": "almoco",
-              "nome": "Almoço",
-              "observacao": "Mesa de apoio: água, farinha, molho de pimenta, vinagre, azeite e sal. Cardápio sujeito a alteração.",
-              "categorias": [
-                {
-                  "nome": "Salada 1",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Mix de folhas com queijo minas",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Salada 2",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Tomate, cebola roxa e manjericão",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Molho para salada",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Pesto de manjericão",
-                      "alternativa": false,
-                      "alergenicos": [
-                        "oleaginosa"
-                      ],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "padrao",
-                  "itens": [
-                    {
-                      "nome": "Ragu de carne",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "ovolactovegetariano",
-                  "itens": [
-                    {
-                      "nome": "Rondele com espinafre, ricota e castanha",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "vegetariano-estrito",
-                  "itens": [
-                    {
-                      "nome": "Polpetone de ervilha",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Guarnição",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Polenta cremosa",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Acompanhamentos",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Arroz branco e integral",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Feijão carioca",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Sobremesa",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Panna cotta de goiabada",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    },
-                    {
-                      "nome": "Fruta",
-                      "alternativa": true,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Bebida (refresco de)",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Uva",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "tipo": "jantar",
-              "nome": "Jantar",
-              "observacao": "Mesa de apoio: água, farinha, molho de pimenta, vinagre, azeite e sal. Cardápio sujeito a alteração.",
-              "categorias": [
-                {
-                  "nome": "Salada 1",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Alface americana",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Salada 2",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Salada caprese (tomate, queijo minas e manjericão)",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Molho para salada",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Molho de ervas frescas",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "(sálvia,alecrim e salsinha)",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "padrao",
-                  "itens": [
-                    {
-                      "nome": "Lasanha à bolonhesa",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "ovolactovegetariano",
-                  "itens": [
-                    {
-                      "nome": "Risoto ao funghi",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "vegetariano-estrito",
-                  "itens": [
-                    {
-                      "nome": "Nhoque ao sugo com ervilha",
-                      "alternativa": false,
-                      "alergenicos": [
-                        "trigo"
-                      ],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Sopa",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Minestrone de legumes com feijão branco",
-                      "alternativa": false,
-                      "alergenicos": [
-                        "trigo"
-                      ],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Torrada",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Torrada com orégano",
-                      "alternativa": false,
-                      "alergenicos": [
-                        "trigo"
-                      ],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Acompanhamentos",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Arroz branco e integral",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Feijão carioca",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Sobremesa",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Panna cotta de goiabada",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    },
-                    {
-                      "nome": "Fruta",
-                      "alternativa": true,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Bebida (refresco de)",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Uva",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "data": "2026-10-21",
-          "refeicoes": [
-            {
-              "tipo": "cafe-da-manha",
-              "nome": "Café da manhã",
-              "observacao": "Mesa de apoio: água, achocolatado, açúcar e adoçante. Cardápio sujeito a alteração.",
-              "categorias": [
-                {
-                  "nome": "Bebidas",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Leite Integral OU Bebida de Soja",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    },
-                    {
-                      "nome": "Café OU Chá",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Panificação",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Pão francês",
-                      "alternativa": false,
-                      "alergenicos": [
-                        "trigo"
-                      ],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Pão careca",
-                      "alternativa": true,
-                      "alergenicos": [
-                        "trigo"
-                      ],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Pão integral",
-                      "alternativa": true,
-                      "alergenicos": [
-                        "trigo"
-                      ],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Gordura",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Manteiga",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    },
-                    {
-                      "nome": "Creme Vegetal",
-                      "alternativa": true,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Complemento",
-                  "trilha": "padrao",
-                  "itens": [
-                    {
-                      "nome": "Carne bovina desfiada",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Complemento",
-                  "trilha": "ovolactovegetariano",
-                  "itens": [
-                    {
-                      "nome": "Queijo minas",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Complemento",
-                  "trilha": "vegetariano-estrito",
-                  "itens": [
-                    {
-                      "nome": "Pasta de amendoim",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
                     }
                   ]
                 },
@@ -1016,140 +606,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Berinjela com pimentões",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Molho para salada",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Salsa",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "padrao",
-                  "itens": [
-                    {
-                      "nome": "Coxa e sobrecoxa ao molho manjericão",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "ovolactovegetariano",
-                  "itens": [
-                    {
-                      "nome": "Risoto de ervilha com queijo",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "vegetariano-estrito",
-                  "itens": [
-                    {
-                      "nome": "Refogado de ervilha, couve-flor e vagem",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Guarnição",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Legumes sauté (batata, chuchu e cenoura)",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Acompanhamentos",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Arroz branco e integral",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Feijão preto",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Sobremesa",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Abacaxi",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Bebida (refresco de)",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Caju",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "tipo": "jantar",
-              "nome": "Jantar",
-              "observacao": "Mesa de apoio: água, farinha, molho de pimenta, vinagre, azeite e sal. Cardápio sujeito a alteração.",
-              "categorias": [
-                {
-                  "nome": "Salada 1",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Repolho com gergelim",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Salada 2",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Rabanete",
+                      "nome": "Picles de beterraba",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1165,12 +622,6 @@
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Limão",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
                     }
                   ]
                 },
@@ -1179,7 +630,7 @@
                   "trilha": "padrao",
                   "itens": [
                     {
-                      "nome": "Peixe ao molho de moqueca",
+                      "nome": "Frango assado",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1191,10 +642,10 @@
                   "trilha": "ovolactovegetariano",
                   "itens": [
                     {
-                      "nome": "Omelete de legumes com soja gratinado",
+                      "nome": "Croquete de soja com queijo",
                       "alternativa": false,
                       "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
+                      "alergenicos_status": "identificados"
                     }
                   ]
                 },
@@ -1203,37 +654,23 @@
                   "trilha": "vegetariano-estrito",
                   "itens": [
                     {
-                      "nome": "Mix de grãos (soja e grão de bico)",
+                      "nome": "Grão de bico à indiana",
                       "alternativa": false,
                       "alergenicos": [
-                        "soja"
+                        "pimenta"
                       ],
                       "alergenicos_status": "identificados"
                     }
                   ]
                 },
                 {
-                  "nome": "Sopa",
+                  "nome": "Guarnição",
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Creme de abóbora com especiarias",
+                      "nome": "Cenoura cozida com salsinha",
                       "alternativa": false,
                       "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Torrada",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Torrada",
-                      "alternativa": false,
-                      "alergenicos": [
-                        "trigo"
-                      ],
                       "alergenicos_status": "identificados"
                     }
                   ]
@@ -1250,277 +687,6 @@
                     },
                     {
                       "nome": "Feijão preto",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Sobremesa",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Maçã",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Bebida (refresco de)",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Caju",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "data": "2026-10-22",
-          "refeicoes": [
-            {
-              "tipo": "cafe-da-manha",
-              "nome": "Café da manhã",
-              "observacao": "Mesa de apoio: água, achocolatado, açúcar e adoçante. Cardápio sujeito a alteração.",
-              "categorias": [
-                {
-                  "nome": "Bebidas",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Leite Integral OU Bebida de Soja",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    },
-                    {
-                      "nome": "Café OU Chá",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Panificação",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Pão francês",
-                      "alternativa": false,
-                      "alergenicos": [
-                        "trigo"
-                      ],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Pão careca ou",
-                      "alternativa": true,
-                      "alergenicos": [
-                        "trigo"
-                      ],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Opção extra",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Milho cozido",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Gordura",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Manteiga",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    },
-                    {
-                      "nome": "Creme Vegetal",
-                      "alternativa": true,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Complemento",
-                  "trilha": "padrao",
-                  "itens": [
-                    {
-                      "nome": "Frango desfiado",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Complemento",
-                  "trilha": "ovolactovegetariano",
-                  "itens": [
-                    {
-                      "nome": "Queijo muçarela",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Complemento",
-                  "trilha": "vegetariano-estrito",
-                  "itens": [
-                    {
-                      "nome": "Homus de abóbora",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Fruta",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Banana",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "tipo": "almoco",
-              "nome": "Almoço",
-              "observacao": "Mesa de apoio: água, farinha, molho de pimenta, vinagre, azeite e sal. Cardápio sujeito a alteração.",
-              "categorias": [
-                {
-                  "nome": "Salada 1",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Hakussai",
-                      "alternativa": false,
-                      "alergenicos": [
-                        "soja"
-                      ],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Salada 2",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Beterraba ralada",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Molho para salada",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Ervas finas",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Limão",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "padrao",
-                  "itens": [
-                    {
-                      "nome": "Carne de sol acebolada",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "ovolactovegetariano",
-                  "itens": [
-                    {
-                      "nome": "Bife de soja ao sugo gratinado",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "vegetariano-estrito",
-                  "itens": [
-                    {
-                      "nome": "Soja xadrez",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Guarnição",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Quibebe de mandioca",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Acompanhamentos",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Arroz branco e integral",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Feijão carioca",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1550,7 +716,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Uva",
+                      "nome": "Laranja",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1569,7 +735,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Alface roxa",
+                      "nome": "Alface com couve",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1581,7 +747,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Abobrinha cozida com salsinha",
+                      "nome": "Abobrinha com manjericão",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1593,9 +759,11 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Hortelã",
+                      "nome": "Gengibre",
                       "alternativa": false,
-                      "alergenicos": [],
+                      "alergenicos": [
+                        "soja"
+                      ],
                       "alergenicos_status": "identificados"
                     }
                   ]
@@ -1605,7 +773,7 @@
                   "trilha": "padrao",
                   "itens": [
                     {
-                      "nome": "Strogonoff de frango",
+                      "nome": "Carne de sol",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1617,10 +785,10 @@
                   "trilha": "ovolactovegetariano",
                   "itens": [
                     {
-                      "nome": "Delícia de lentilha",
+                      "nome": "Bife de soja à pizzaiolo",
                       "alternativa": false,
                       "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
+                      "alergenicos_status": "identificados"
                     }
                   ]
                 },
@@ -1629,7 +797,7 @@
                   "trilha": "vegetariano-estrito",
                   "itens": [
                     {
-                      "nome": "Charuto de couve com lentilha",
+                      "nome": "Ervilha ao sugo",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1641,9 +809,11 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Creme de legumes",
+                      "nome": "Sopa minestrone",
                       "alternativa": false,
-                      "alergenicos": [],
+                      "alergenicos": [
+                        "trigo"
+                      ],
                       "alergenicos_status": "identificados"
                     }
                   ]
@@ -1673,7 +843,7 @@
                       "alergenicos_status": "identificados"
                     },
                     {
-                      "nome": "Feijão carioca",
+                      "nome": "Feijão preto",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1697,7 +867,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Uva",
+                      "nome": "Laranja",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1709,7 +879,7 @@
           ]
         },
         {
-          "data": "2026-10-23",
+          "data": "2026-10-28",
           "refeicoes": [
             {
               "tipo": "cafe-da-manha",
@@ -1721,14 +891,26 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Leite Integral OU Bebida de Soja",
+                      "nome": "Leite integral",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "indeterminado"
                     },
                     {
-                      "nome": "Café OU Chá",
+                      "nome": "Bebida de soja",
+                      "alternativa": true,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Café",
                       "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Chá",
+                      "alternativa": true,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
                     }
@@ -1775,7 +957,7 @@
                       "alergenicos_status": "indeterminado"
                     },
                     {
-                      "nome": "Creme Vegetal",
+                      "nome": "Creme vegetal",
                       "alternativa": true,
                       "alergenicos": [],
                       "alergenicos_status": "indeterminado"
@@ -1787,7 +969,7 @@
                   "trilha": "padrao",
                   "itens": [
                     {
-                      "nome": "Carne bovina moída",
+                      "nome": "Frango desfiado",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1799,7 +981,7 @@
                   "trilha": "ovolactovegetariano",
                   "itens": [
                     {
-                      "nome": "Ricota temperada",
+                      "nome": "Creme de ricota com azeitonas",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "indeterminado"
@@ -1811,10 +993,10 @@
                   "trilha": "vegetariano-estrito",
                   "itens": [
                     {
-                      "nome": "Pasta de ervilha",
+                      "nome": "Caponata de berinjela",
                       "alternativa": false,
                       "alergenicos": [],
-                      "alergenicos_status": "identificados"
+                      "alergenicos_status": "indeterminado"
                     }
                   ]
                 },
@@ -1842,7 +1024,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Couve-manteiga",
+                      "nome": "Acelga",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1854,7 +1036,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Abóbora ralada",
+                      "nome": "Rabanete",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1866,7 +1048,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Vinagrete",
+                      "nome": "Chimichurri",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1878,7 +1060,7 @@
                   "trilha": "padrao",
                   "itens": [
                     {
-                      "nome": "Feijoada",
+                      "nome": "Lasanha à bolonhesa",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1890,7 +1072,7 @@
                   "trilha": "ovolactovegetariano",
                   "itens": [
                     {
-                      "nome": "Omelete de vegetais com queijo gratinada",
+                      "nome": "Isca de soja ao sugo gratinada",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1902,7 +1084,433 @@
                   "trilha": "vegetariano-estrito",
                   "itens": [
                     {
-                      "nome": "Feijoada Vegetariana",
+                      "nome": "Tomate recheado com homus de ervilha",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Guarnição",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Chuchu com vagem",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Acompanhamentos",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Arroz branco e integral",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Feijão carioca",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Sobremesa",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Laranja",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Bebida (refresco de)",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Acerola",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "jantar",
+              "nome": "Jantar",
+              "observacao": "Mesa de apoio: água, farinha, molho de pimenta, vinagre, azeite e sal. Cardápio sujeito a alteração.",
+              "categorias": [
+                {
+                  "nome": "Salada 1",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Alface roxa e rúcula",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Salada 2",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Beterraba ralada",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Molho para salada",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Limão /Hortelã",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "padrao",
+                  "itens": [
+                    {
+                      "nome": "Suíno ao molho de mostarda",
+                      "alternativa": false,
+                      "alergenicos": [
+                        "suino"
+                      ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "ovolactovegetariano",
+                  "itens": [
+                    {
+                      "nome": "Ovos mexidos",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "vegetariano-estrito",
+                  "itens": [
+                    {
+                      "nome": "Hambúrguer de abóbora com gergelim",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Sopa",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Creme de cebola caramelizada",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Torrada",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Torrada",
+                      "alternativa": false,
+                      "alergenicos": [
+                        "trigo"
+                      ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Acompanhamentos",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Arroz branco e integral",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Feijão carioca",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Sobremesa",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Doce de leite",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Fruta",
+                      "alternativa": true,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Bebida (refresco de)",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Acerola",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "data": "2026-10-29",
+          "refeicoes": [
+            {
+              "tipo": "cafe-da-manha",
+              "nome": "Café da manhã",
+              "observacao": "Mesa de apoio: água, achocolatado, açúcar e adoçante. Cardápio sujeito a alteração.",
+              "categorias": [
+                {
+                  "nome": "Bebidas",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Leite integral",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Bebida de soja",
+                      "alternativa": true,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Café",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Chá",
+                      "alternativa": true,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Panificação",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Pão francês",
+                      "alternativa": false,
+                      "alergenicos": [
+                        "trigo"
+                      ],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Pão careca",
+                      "alternativa": true,
+                      "alergenicos": [
+                        "trigo"
+                      ],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Pão integral",
+                      "alternativa": true,
+                      "alergenicos": [
+                        "trigo"
+                      ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Gordura",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Manteiga",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Creme vegetal",
+                      "alternativa": true,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Complemento",
+                  "trilha": "padrao",
+                  "itens": [
+                    {
+                      "nome": "Carne bovina moída",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Complemento",
+                  "trilha": "ovolactovegetariano",
+                  "itens": [
+                    {
+                      "nome": "Queijo muçarela",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Complemento",
+                  "trilha": "vegetariano-estrito",
+                  "itens": [
+                    {
+                      "nome": "Requeijão de ervas",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Fruta",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Mamão",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "almoco",
+              "nome": "Almoço",
+              "observacao": "Mesa de apoio: água, farinha, molho de pimenta, vinagre, azeite e sal. Cardápio sujeito a alteração.",
+              "categorias": [
+                {
+                  "nome": "Salada 1",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Repolho roxo",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Salada 2",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Antepasto de abobrinha",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Molho para salada",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Ácido",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "padrao",
+                  "itens": [
+                    {
+                      "nome": "Cubos de frango ao molho sugo",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "ovolactovegetariano",
+                  "itens": [
+                    {
+                      "nome": "Risoto de espinafre",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "vegetariano-estrito",
+                  "itens": [
+                    {
+                      "nome": "Charuto de repolho com PTS",
                       "alternativa": false,
                       "alergenicos": [
                         "soja"
@@ -1916,7 +1524,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Farofa de cebola",
+                      "nome": "Mix de batatas",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1946,7 +1554,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Laranja",
+                      "nome": "Melão",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1958,7 +1566,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Morango",
+                      "nome": "Manga",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1977,7 +1585,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Mix de folhas",
+                      "nome": "Repolho branco e passas",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1989,10 +1597,10 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Caponata de berinjela",
+                      "nome": "Pepino em cubos com gergelim",
                       "alternativa": false,
                       "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
+                      "alergenicos_status": "identificados"
                     }
                   ]
                 },
@@ -2001,7 +1609,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Maracujá",
+                      "nome": "Manjericão",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2013,19 +1621,7 @@
                   "trilha": "padrao",
                   "itens": [
                     {
-                      "nome": "Isca de carne acebolada",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "ovolactovegetariano",
-                  "itens": [
-                    {
-                      "nome": "Baião de dois com queijo coalho",
+                      "nome": "Strogonoff de carne",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "indeterminado"
@@ -2034,13 +1630,25 @@
                 },
                 {
                   "nome": "Prato principal",
+                  "trilha": "ovolactovegetariano",
+                  "itens": [
+                    {
+                      "nome": "Macarrão ao molho branco com PTS",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
                   "trilha": "vegetariano-estrito",
                   "itens": [
                     {
-                      "nome": "Moqueca de banana da terra com proteína de soja",
+                      "nome": "Moqueca de vegetais com palmito e castanhas",
                       "alternativa": false,
                       "alergenicos": [
-                        "soja"
+                        "oleaginosa"
                       ],
                       "alergenicos_status": "identificados"
                     }
@@ -2051,7 +1659,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Sopa de tomate com aveia",
+                      "nome": "Creme de cenoura com gengibre",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2068,6 +1676,724 @@
                       "alergenicos": [
                         "trigo"
                       ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Acompanhamentos",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Arroz branco e integral",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Feijão preto",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Sobremesa",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Maçã",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Bebida (refresco de)",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Manga",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "data": "2026-10-30",
+          "refeicoes": [
+            {
+              "tipo": "cafe-da-manha",
+              "nome": "Café da manhã",
+              "observacao": "Mesa de apoio: água, achocolatado, açúcar e adoçante. Cardápio sujeito a alteração.",
+              "categorias": [
+                {
+                  "nome": "Bebidas",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Leite integral",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Bebida de soja",
+                      "alternativa": true,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Café",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Chá",
+                      "alternativa": true,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Panificação",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Pão francês",
+                      "alternativa": false,
+                      "alergenicos": [
+                        "trigo"
+                      ],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Pão careca ou",
+                      "alternativa": true,
+                      "alergenicos": [
+                        "trigo"
+                      ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Opção extra",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Broa de milho",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Gordura",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Manteiga",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Creme vegetal",
+                      "alternativa": true,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Complemento",
+                  "trilha": "padrao",
+                  "itens": [
+                    {
+                      "nome": "Queijo minas",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Complemento",
+                  "trilha": "ovolactovegetariano",
+                  "itens": [
+                    {
+                      "nome": "Ricota temperada",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Complemento",
+                  "trilha": "vegetariano-estrito",
+                  "itens": [
+                    {
+                      "nome": "Amendotela",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Fruta",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Salada de frutas",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "almoco",
+              "nome": "Almoço",
+              "observacao": "Mesa de apoio: água, farinha, molho de pimenta, vinagre, azeite e sal. Cardápio sujeito a alteração.",
+              "categorias": [
+                {
+                  "nome": "Salada 1",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Alface com agrião",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Salada 2",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Tomate, cebola e pimentão em cubos",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Molho para salada",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Hortelã",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Limão",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "padrao",
+                  "itens": [
+                    {
+                      "nome": "Peixe ao molho bechamel gratinado",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "ovolactovegetariano",
+                  "itens": [
+                    {
+                      "nome": "Ovos assados ao sugo",
+                      "alternativa": false,
+                      "alergenicos": [
+                        "ovo"
+                      ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "vegetariano-estrito",
+                  "itens": [
+                    {
+                      "nome": "Guisado de grãos de soja",
+                      "alternativa": false,
+                      "alergenicos": [
+                        "soja"
+                      ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Guarnição",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Abóbora assada",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Acompanhamentos",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Arroz branco e integral",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Feijão carioca",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Sobremesa",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Banana",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Bebida (refresco de)",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Maracujá",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "jantar",
+              "nome": "Jantar",
+              "observacao": "Mesa de apoio: água, farinha, molho de pimenta, vinagre, azeite e sal. Cardápio sujeito a alteração.",
+              "categorias": [
+                {
+                  "nome": "Salada 1",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Acelga temperada",
+                      "alternativa": false,
+                      "alergenicos": [
+                        "soja"
+                      ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Salada 2",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Picles de rabanete",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Molho para salada",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Chipotle",
+                      "alternativa": false,
+                      "alergenicos": [
+                        "pimenta"
+                      ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "padrao",
+                  "itens": [
+                    {
+                      "nome": "Frango assado ao molho barbecue",
+                      "alternativa": false,
+                      "alergenicos": [
+                        "soja",
+                        "suino"
+                      ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "ovolactovegetariano",
+                  "itens": [
+                    {
+                      "nome": "Lasanha de brócolis",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "vegetariano-estrito",
+                  "itens": [
+                    {
+                      "nome": "Ervilha refogada com brócolis e couve-flor",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Sopa",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Sopa canjiquinha",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Torrada",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Torrada",
+                      "alternativa": false,
+                      "alergenicos": [
+                        "trigo"
+                      ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Acompanhamentos",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Arroz branco e integral",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Feijão carioca",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Sobremesa",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Melancia",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Bebida (refresco de)",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Maracujá",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "data": "2026-10-31",
+          "refeicoes": [
+            {
+              "tipo": "cafe-da-manha",
+              "nome": "Café da manhã",
+              "observacao": "Mesa de apoio: água, achocolatado, açúcar e adoçante. Cardápio sujeito a alteração.",
+              "categorias": [
+                {
+                  "nome": "Bebidas",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Leite integral",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Bebida de soja",
+                      "alternativa": true,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Café",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Chá",
+                      "alternativa": true,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Panificação",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Pão francês",
+                      "alternativa": false,
+                      "alergenicos": [
+                        "trigo"
+                      ],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Pão careca",
+                      "alternativa": true,
+                      "alergenicos": [
+                        "trigo"
+                      ],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Pão integral",
+                      "alternativa": true,
+                      "alergenicos": [
+                        "trigo"
+                      ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Gordura",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Manteiga",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Creme vegetal",
+                      "alternativa": true,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Complemento",
+                  "trilha": "padrao",
+                  "itens": [
+                    {
+                      "nome": "Carne bovina desfiada",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Complemento",
+                  "trilha": "ovolactovegetariano",
+                  "itens": [
+                    {
+                      "nome": "Bebida láctea",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Complemento",
+                  "trilha": "vegetariano-estrito",
+                  "itens": [
+                    {
+                      "nome": "Guacamole",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Fruta",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Abacaxi",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "almoco",
+              "nome": "Almoço",
+              "observacao": "Mesa de apoio: água, farinha, molho de pimenta, vinagre, azeite e sal. Cardápio sujeito a alteração.",
+              "categorias": [
+                {
+                  "nome": "Salada 1",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Chicória",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Salada 2",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Salada mista",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Molho para salada",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Ervas finas",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Limão",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "padrao",
+                  "itens": [
+                    {
+                      "nome": "Bife bovino ao molho sugo",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "ovolactovegetariano",
+                  "itens": [
+                    {
+                      "nome": "Empadão de legumes com ervilha gratinado",
+                      "alternativa": false,
+                      "alergenicos": [
+                        "trigo"
+                      ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "vegetariano-estrito",
+                  "itens": [
+                    {
+                      "nome": "Escondidinho de legumes com lentilha",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Guarnição",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Berinjela assada com cebola",
+                      "alternativa": false,
+                      "alergenicos": [],
                       "alergenicos_status": "identificados"
                     }
                   ]
@@ -2107,268 +2433,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Morango",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "data": "2026-10-24",
-          "refeicoes": [
-            {
-              "tipo": "cafe-da-manha",
-              "nome": "Café da manhã",
-              "observacao": "Mesa de apoio: água, achocolatado, açúcar e adoçante. Cardápio sujeito a alteração.",
-              "categorias": [
-                {
-                  "nome": "Bebidas",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Leite Integral OU Bebida de Soja",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    },
-                    {
-                      "nome": "Café OU Chá",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Panificação",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Pão francês",
-                      "alternativa": false,
-                      "alergenicos": [
-                        "trigo"
-                      ],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Pão careca",
-                      "alternativa": true,
-                      "alergenicos": [
-                        "trigo"
-                      ],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Pão integral",
-                      "alternativa": true,
-                      "alergenicos": [
-                        "trigo"
-                      ],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Gordura",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Manteiga",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    },
-                    {
-                      "nome": "Creme Vegetal",
-                      "alternativa": true,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Complemento",
-                  "trilha": "padrao",
-                  "itens": [
-                    {
-                      "nome": "Ovos mexidos",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Complemento",
-                  "trilha": "ovolactovegetariano",
-                  "itens": [
-                    {
-                      "nome": "Queijo muçarela",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Complemento",
-                  "trilha": "vegetariano-estrito",
-                  "itens": [
-                    {
-                      "nome": "Maionese de abacate",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Fruta",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Salada de frutas",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "tipo": "almoco",
-              "nome": "Almoço",
-              "observacao": "Mesa de apoio: água, farinha, molho de pimenta, vinagre, azeite e sal. Cardápio sujeito a alteração.",
-              "categorias": [
-                {
-                  "nome": "Salada 1",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Mostarda",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Salada 2",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Tomate",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Molho para salada",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Alho e limão",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "padrao",
-                  "itens": [
-                    {
-                      "nome": "Torta de carne com calabresa",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "ovolactovegetariano",
-                  "itens": [
-                    {
-                      "nome": "Lasanha de espinafre gratinada",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "vegetariano-estrito",
-                  "itens": [
-                    {
-                      "nome": "Cuscuz vegetariano",
-                      "alternativa": false,
-                      "alergenicos": [
-                        "soja"
-                      ],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Guarnição",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Seleta de legumes (cenoura, vagem e abobrinha)",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Acompanhamentos",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Arroz branco e integral",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Feijão carioca",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Sobremesa",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Melão",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Bebida (refresco de)",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Tangerina",
+                      "nome": "Uva",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2387,7 +2452,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Alface lisa",
+                      "nome": "Mix de folhas",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2399,11 +2464,9 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Tabule",
+                      "nome": "Tomate fatiado",
                       "alternativa": false,
-                      "alergenicos": [
-                        "trigo"
-                      ],
+                      "alergenicos": [],
                       "alergenicos_status": "identificados"
                     }
                   ]
@@ -2413,16 +2476,16 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Salsa",
+                      "nome": "Iogurte e hortelã",
                       "alternativa": false,
                       "alergenicos": [],
-                      "alergenicos_status": "identificados"
+                      "alergenicos_status": "indeterminado"
                     },
                     {
                       "nome": "Limão",
                       "alternativa": false,
                       "alergenicos": [],
-                      "alergenicos_status": "identificados"
+                      "alergenicos_status": "indeterminado"
                     }
                   ]
                 },
@@ -2431,10 +2494,10 @@
                   "trilha": "padrao",
                   "itens": [
                     {
-                      "nome": "Almôndegas de carne sugo",
+                      "nome": "Escondidinho de carne moída com polenta",
                       "alternativa": false,
                       "alergenicos": [],
-                      "alergenicos_status": "identificados"
+                      "alergenicos_status": "indeterminado"
                     }
                   ]
                 },
@@ -2443,7 +2506,7 @@
                   "trilha": "ovolactovegetariano",
                   "itens": [
                     {
-                      "nome": "Macarrão à bolonhesa de soja com queijo",
+                      "nome": "Delícia de lentilha",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2455,11 +2518,9 @@
                   "trilha": "vegetariano-estrito",
                   "itens": [
                     {
-                      "nome": "Isca de soja ao sugo",
+                      "nome": "Yakissoba",
                       "alternativa": false,
-                      "alergenicos": [
-                        "soja"
-                      ],
+                      "alergenicos": [],
                       "alergenicos_status": "identificados"
                     }
                   ]
@@ -2469,7 +2530,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Creme de milho",
+                      "nome": "Creme de batatas",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2486,269 +2547,6 @@
                       "alergenicos": [
                         "trigo"
                       ],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Acompanhamentos",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Arroz branco e integral",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Feijão carioca",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Sobremesa",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Abacaxi",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Bebida (refresco de)",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Tangerina",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "data": "2026-10-25",
-          "refeicoes": [
-            {
-              "tipo": "cafe-da-manha",
-              "nome": "Café da manhã",
-              "observacao": "Mesa de apoio: água, achocolatado, açúcar e adoçante. Cardápio sujeito a alteração.",
-              "categorias": [
-                {
-                  "nome": "Bebidas",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Leite Integral OU Bebida de Soja",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    },
-                    {
-                      "nome": "Café OU Chá",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Panificação",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Pão francês",
-                      "alternativa": false,
-                      "alergenicos": [
-                        "trigo"
-                      ],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Pão careca ou",
-                      "alternativa": true,
-                      "alergenicos": [
-                        "trigo"
-                      ],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Opção extra",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Tapioca",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Gordura",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Manteiga",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    },
-                    {
-                      "nome": "Creme Vegetal",
-                      "alternativa": true,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Complemento",
-                  "trilha": "padrao",
-                  "itens": [
-                    {
-                      "nome": "Bebida láctea",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Complemento",
-                  "trilha": "ovolactovegetariano",
-                  "itens": [
-                    {
-                      "nome": "Omelete de forno",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Complemento",
-                  "trilha": "vegetariano-estrito",
-                  "itens": [
-                    {
-                      "nome": "Pasta de inhame com azeitona",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Fruta",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Melão",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "tipo": "almoco",
-              "nome": "Almoço",
-              "observacao": "Mesa de apoio: água, farinha, molho de pimenta, vinagre, azeite e sal. Cardápio sujeito a alteração.",
-              "categorias": [
-                {
-                  "nome": "Salada 1",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Agrião",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Salada 2",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Salada de feijão fradinho",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Molho para salada",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Hortelã",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "padrao",
-                  "itens": [
-                    {
-                      "nome": "Isca de frango acebolada",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "ovolactovegetariano",
-                  "itens": [
-                    {
-                      "nome": "Bolinho de mandioca com ervilha gratinado",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Prato principal",
-                  "trilha": "vegetariano-estrito",
-                  "itens": [
-                    {
-                      "nome": "Bobó vegetariano",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    }
-                  ]
-                },
-                {
-                  "nome": "Guarnição",
-                  "trilha": null,
-                  "itens": [
-                    {
-                      "nome": "Abóbora assada",
-                      "alternativa": false,
-                      "alergenicos": [],
                       "alergenicos_status": "identificados"
                     }
                   ]
@@ -2788,7 +2586,291 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Maracujá",
+                      "nome": "Uva",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "data": "2026-11-01",
+          "refeicoes": [
+            {
+              "tipo": "cafe-da-manha",
+              "nome": "Café da manhã",
+              "observacao": "Mesa de apoio: água, achocolatado, açúcar e adoçante. Cardápio sujeito a alteração.",
+              "categorias": [
+                {
+                  "nome": "Bebidas",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Leite integral",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Bebida de soja",
+                      "alternativa": true,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Café",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Chá",
+                      "alternativa": true,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Panificação",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Pão francês",
+                      "alternativa": false,
+                      "alergenicos": [
+                        "trigo"
+                      ],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Pão careca",
+                      "alternativa": true,
+                      "alergenicos": [
+                        "trigo"
+                      ],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Pão integral",
+                      "alternativa": true,
+                      "alergenicos": [
+                        "trigo"
+                      ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Gordura",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Manteiga",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Creme vegetal",
+                      "alternativa": true,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Complemento",
+                  "trilha": "padrao",
+                  "itens": [
+                    {
+                      "nome": "Ovos assados ao sugo",
+                      "alternativa": false,
+                      "alergenicos": [
+                        "ovo"
+                      ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Complemento",
+                  "trilha": "ovolactovegetariano",
+                  "itens": [
+                    {
+                      "nome": "Queijo minas",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Complemento",
+                  "trilha": "vegetariano-estrito",
+                  "itens": [
+                    {
+                      "nome": "Geleia de uva com chia",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Fruta",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Melão",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "almoco",
+              "nome": "Almoço",
+              "observacao": "Mesa de apoio: água, farinha, molho de pimenta, vinagre, azeite e sal. Cardápio sujeito a alteração.",
+              "categorias": [
+                {
+                  "nome": "Salada 1",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Salada de alfaces",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Salada 2",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Feijão fradinho ao vinagrete",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Molho para salada",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Rosé",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Limão",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "padrao",
+                  "itens": [
+                    {
+                      "nome": "Suíno tropical",
+                      "alternativa": false,
+                      "alergenicos": [
+                        "soja",
+                        "suino"
+                      ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "ovolactovegetariano",
+                  "itens": [
+                    {
+                      "nome": "Omelete de lentilha gratinado",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Prato principal",
+                  "trilha": "vegetariano-estrito",
+                  "itens": [
+                    {
+                      "nome": "Caruru de grão de bico",
+                      "alternativa": false,
+                      "alergenicos": [
+                        "amendoim"
+                      ],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Guarnição",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Purê de batata doce",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Acompanhamentos",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Arroz branco e integral",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Feijão carioca",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Sobremesa",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Melancia",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "identificados"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Bebida (refresco de)",
+                  "trilha": null,
+                  "itens": [
+                    {
+                      "nome": "Limão",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2807,7 +2889,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Acelga",
+                      "nome": "Alface roxa",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2819,7 +2901,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Picles de pepino",
+                      "nome": "Cenoura ralada com passas",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2831,13 +2913,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Ácido",
-                      "alternativa": false,
-                      "alergenicos": [],
-                      "alergenicos_status": "identificados"
-                    },
-                    {
-                      "nome": "Limão",
+                      "nome": "Alho e limão",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2849,7 +2925,7 @@
                   "trilha": "padrao",
                   "itens": [
                     {
-                      "nome": "Suíno africano",
+                      "nome": "Empadão de frango",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2861,10 +2937,10 @@
                   "trilha": "ovolactovegetariano",
                   "itens": [
                     {
-                      "nome": "Ovos mexidos com ervas",
+                      "nome": "Bife de soja ao sugo gratinada",
                       "alternativa": false,
                       "alergenicos": [],
-                      "alergenicos_status": "indeterminado"
+                      "alergenicos_status": "identificados"
                     }
                   ]
                 },
@@ -2873,9 +2949,11 @@
                   "trilha": "vegetariano-estrito",
                   "itens": [
                     {
-                      "nome": "Quinoa refogada com vegetais",
+                      "nome": "Curry de legumes e ervilha",
                       "alternativa": false,
-                      "alergenicos": [],
+                      "alergenicos": [
+                        "pimenta"
+                      ],
                       "alergenicos_status": "identificados"
                     }
                   ]
@@ -2885,7 +2963,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Sopa de lentilha",
+                      "nome": "Sopa de ervilha com couve",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2911,13 +2989,13 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Arroz branco e integral",
+                      "nome": "Arroz branco e Integral",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
                     },
                     {
-                      "nome": "Feijão preto",
+                      "nome": "Feijão carioca",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2929,7 +3007,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Melancia",
+                      "nome": "Banana",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2941,7 +3019,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Maracujá",
+                      "nome": "Limão",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2957,7 +3035,7 @@
     {
       "id": "ceilandia",
       "nome": "Ceilândia",
-      "pdf": "https://ru.unb.br/wp-content/uploads/2026/10/Ceilandia-Semana-02-26-10-a-01-11.pdf",
+      "pdf": "https://ru.unb.br/wp-content/uploads/2026/10/Ceilandia-Semana-02-26-10-a-01-11-1.pdf",
       "dias": [
         {
           "data": "2026-10-26",
@@ -3275,6 +3353,12 @@
                       "alergenicos": [
                         "mel"
                       ],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Limão",
+                      "alternativa": false,
+                      "alergenicos": [],
                       "alergenicos_status": "identificados"
                     }
                   ]
@@ -5392,7 +5476,7 @@
     {
       "id": "gama",
       "nome": "Gama",
-      "pdf": "https://ru.unb.br/wp-content/uploads/2026/10/Gama-Semana-02-26-10-a-01-11.pdf",
+      "pdf": "https://ru.unb.br/wp-content/uploads/2026/10/Gama-Semana-02-26-10-a-01-11-1.pdf",
       "dias": [
         {
           "data": "2026-10-26",
@@ -5706,6 +5790,12 @@
                   "itens": [
                     {
                       "nome": "Mostarda e mel",
+                      "alternativa": false,
+                      "alergenicos": [],
+                      "alergenicos_status": "indeterminado"
+                    },
+                    {
+                      "nome": "Limão",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "indeterminado"
@@ -7528,7 +7618,7 @@
     {
       "id": "planaltina",
       "nome": "Planaltina",
-      "pdf": "https://ru.unb.br/wp-content/uploads/2026/10/Planaltina-Semana-02-26-10-a-01-11.pdf",
+      "pdf": "https://ru.unb.br/wp-content/uploads/2026/10/Planaltina-Semana-02-26-10-a-01-11-1.pdf",
       "dias": [
         {
           "data": "2026-10-26",
@@ -7846,6 +7936,12 @@
                       "alergenicos": [
                         "mel"
                       ],
+                      "alergenicos_status": "identificados"
+                    },
+                    {
+                      "nome": "Limão",
+                      "alternativa": false,
+                      "alergenicos": [],
                       "alergenicos_status": "identificados"
                     }
                   ]
