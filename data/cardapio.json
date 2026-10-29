@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-28T15:40:24Z",
+  "gerado_em": "2026-10-29T15:46:25Z",
   "fonte": "https://ru.unb.br/cardapio-refeitorio/",
   "semana": {
     "inicio": "2026-10-26",
@@ -10,7 +10,7 @@
     {
       "id": "darcy-ribeiro",
       "nome": "Darcy Ribeiro",
-      "pdf": "https://ru.unb.br/wp-content/uploads/2026/10/Darcy-Ribeiro-Semana-02-26-10-a-01-11-2.pdf",
+      "pdf": "https://ru.unb.br/wp-content/uploads/2026/10/Darcy-Ribeiro-Semana-02-26-10-a-01-11-4.pdf",
       "dias": [
         {
           "data": "2026-10-26",
@@ -1585,7 +1585,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Repolho branco e passas",
+                      "nome": "Mix de folhas",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -1633,7 +1633,7 @@
                   "trilha": "ovolactovegetariano",
                   "itens": [
                     {
-                      "nome": "Macarrão ao molho branco com PTS",
+                      "nome": "Macarrão ao molho branco com lentilha",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
@@ -2452,7 +2452,7 @@
                   "trilha": null,
                   "itens": [
                     {
-                      "nome": "Mix de folhas",
+                      "nome": "Repolho branco com passas",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
