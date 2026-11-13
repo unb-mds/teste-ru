@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-12T17:17:20Z",
+  "gerado_em": "2026-11-13T16:53:21Z",
   "fonte": "https://ru.unb.br/cardapio-refeitorio/",
   "semana": {
     "inicio": "2026-11-09",
@@ -10,7 +10,7 @@
     {
       "id": "darcy-ribeiro",
       "nome": "Darcy Ribeiro",
-      "pdf": "https://ru.unb.br/wp-content/uploads/2026/11/Darcy-Ribeiro-Semana-04-09-11-a-15-11-2.pdf",
+      "pdf": "https://ru.unb.br/wp-content/uploads/2026/11/Darcy-Ribeiro-Semana-04-09-11-a-15-11-4.pdf",
       "dias": [
         {
           "data": "2026-11-09",
@@ -1870,7 +1870,7 @@
                   "trilha": "padrao",
                   "itens": [
                     {
-                      "nome": "Peixe ao molho de mostarda",
+                      "nome": "Peixe ao molho branco",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "indeterminado"
@@ -2010,8 +2010,7 @@
                       "nome": "Coxa e sobrecoxa ao molho barbecue",
                       "alternativa": false,
                       "alergenicos": [
-                        "soja",
-                        "suino"
+                        "soja"
                       ],
                       "alergenicos_status": "identificados"
                     }
