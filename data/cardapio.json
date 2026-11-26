@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-25T18:56:08Z",
+  "gerado_em": "2026-11-26T18:46:09Z",
   "fonte": "https://ru.unb.br/cardapio-refeitorio/",
   "semana": {
     "inicio": "2026-11-23",
@@ -10,7 +10,7 @@
     {
       "id": "darcy-ribeiro",
       "nome": "Darcy Ribeiro",
-      "pdf": "https://ru.unb.br/wp-content/uploads/2026/11/Darcy-Ribeiro-Semana-02-23-11-a-29-11-1.pdf",
+      "pdf": "https://ru.unb.br/wp-content/uploads/2026/11/Darcy-Ribeiro-Semana-02-23-11-a-29-11-2.pdf",
       "dias": [
         {
           "data": "2026-11-23",
@@ -1472,7 +1472,7 @@
                   "trilha": "padrao",
                   "itens": [
                     {
-                      "nome": "Cubos de frango ao molho sugo",
+                      "nome": "Lagarto ao molho sugo",
                       "alternativa": false,
                       "alergenicos": [],
                       "alergenicos_status": "identificados"
